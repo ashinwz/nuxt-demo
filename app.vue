@@ -1,5 +1,13 @@
 <template>
-  <h1 class="text-red-700 text-2xl font-bold underline">
-    Hello world!
-  </h1>
+  <div>
+    <ul>
+      <li>
+        <NuxtLink to="/about">about</NuxtLink>
+      </li>
+    </ul>
+    <Alert />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
