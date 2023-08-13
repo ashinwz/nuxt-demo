@@ -1,13 +1,8 @@
 <template>
   <div>
-    <ul>
-      <li>
-        <NuxtLink to="/about">about</NuxtLink>
-      </li>
-    </ul>
-    <Alert />
-    <NuxtLayout>
+    <NuxtLayout name="default">
       <NuxtPage />
     </NuxtLayout>
+     <UNotifications />
   </div>
 </template>
